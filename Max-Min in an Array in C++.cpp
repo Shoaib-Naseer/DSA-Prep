@@ -1,6 +1,6 @@
 // Online C++ compiler to run C++ program online
-#include <iostream>
-using namespace std;
+    #include <iostream>
+    using namespace std;
 // Function to traverse Array Elements
 void printArray(int arr[], int size)
 {
