@@ -19,10 +19,12 @@ int findPivotElement(vector<int> &nums)
         mid = start + (end - start) / 2;
         if (nums[mid] >= nums[0])
         {
+            // It means that mid point exist in first line
             start = mid + 1;
         }
         else
         {
+            // It means that mid point exist in second line
             end = mid;
         }
     }
