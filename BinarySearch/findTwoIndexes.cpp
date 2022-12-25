@@ -5,7 +5,7 @@ using namespace std;
 int firstOccurence(int arr[], int size, int target)
 {
     int start = 0;
-    int index;
+    int index =-1;
     int end = size - 1;
     int mid = (start + end) / 2;
     while (start <= end)
@@ -31,7 +31,7 @@ int firstOccurence(int arr[], int size, int target)
 int lastOccurence(int arr[], int size, int target)
 {
     int start = 0;
-    int index;
+    int index=-1;
     int end = size - 1;
     int mid = (start + end) / 2;
     while (start <= end)
